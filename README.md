@@ -14,3 +14,10 @@ pip3 install pymysql -i https://pypi.douban.com/simple
 ```shell script
 pip3 install passlib -i https://pypi.douban.com/simple
 ```
+
+#### grpc
+
+```shell script
+pip3 install grpcio -i https://pypi.douban.com/simple
+pip3 install grpcio-tools -i https://pypi.douban.com/simple
+```
