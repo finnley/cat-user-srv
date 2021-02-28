@@ -39,7 +39,7 @@ message CreateUserInfo {
 message UpdateUserInfo {
   uint32 id = 1;
   string nickname = 2;
-  string gender = 3;
+  uint32 gender = 3;
   //protobuf 并没有提供datetime类型,因为在不同语言中不一样，但是datetime的本质是uint64
   uint64 birthday = 4;
 }
@@ -57,7 +57,7 @@ message UserInfoResponse {
   string mobile = 2;
   string password = 3;
   string nickname = 4;
-  string gender = 5;
+  uint32 gender = 5;
   uint64 birthday = 6;
   uint32 role = 7;
 }
