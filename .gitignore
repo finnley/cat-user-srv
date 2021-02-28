@@ -2,6 +2,8 @@
 
 .DS_Store
 
+logs/
+
 __pycache__/
 settings/__pycache__/
 ../handler/__pycache__/

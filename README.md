@@ -21,3 +21,9 @@ pip3 install passlib -i https://pypi.douban.com/simple
 pip3 install grpcio -i https://pypi.douban.com/simple
 pip3 install grpcio-tools -i https://pypi.douban.com/simple
 ```
+
+#### loguru
+
+```shell script
+pip3 install loguru -i https://pypi.douban.com/simple
+```
