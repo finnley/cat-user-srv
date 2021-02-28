@@ -2,4 +2,7 @@
 
 .DS_Store
 
+__pycache__/
 settings/__pycache__/
+../handler/__pycache__/
+../models/__pycache__/
